@@ -3,7 +3,9 @@ module.exports = (sequelize, DataTypes) => {
   var food = sequelize.define('food', {
     id: DataTypes.INTEGER,
     price: DataTypes.FLOAT,
-    type: DataTypes.INTEGER
+    type: DataTypes.INTEGER,
+    name: DataTypes.STRING,
+    tva: DataTypes.INTEGER
   }, {});
   food.associate = function(models) {
     // associations can be defined here
