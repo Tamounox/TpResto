@@ -1,7 +1,11 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var table = sequelize.define('table', {
-    id: DataTypes.INTEGER,
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },  
     nbr_couvert: DataTypes.INTEGER
   }, {});
   table.associate = function(models) {

@@ -30,7 +30,7 @@ var app = {
     onDeviceReady: function() {
         console.log('tameredeviceready')
         // this.receivedEvent('deviceready');
-        var socket = io("http://10.31.0.11:3000");
+        var socket = io("http://192.168.1.84:3000");
             socket.on('connection', function(){
                 console.log("codova link");
             })

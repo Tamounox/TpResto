@@ -1,7 +1,13 @@
-Socket.emit ('receivePlat',)
+console.log('tameredeviceready')
 
-Socket.on ('sendPlat', plats){
+var socket = io("http://192.168.1.84:3000");
+
+socket.emit('recieve','Plat')
+
+socket.on('send', function (type, plats) {
     console.log(plats);
-    $('#listePlat').prepend('<li>'+plats[0].id+'</li>'); 
-
-};
+    plats.forEach(function(plat){
+        $('#listePlat').prepend('<li>' + plat.id+ '  ' + plat.name + '</li>');
+    })
+    
+})

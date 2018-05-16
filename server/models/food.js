@@ -1,7 +1,11 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var food = sequelize.define('food', {
-    id: DataTypes.INTEGER,
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },
     price: DataTypes.FLOAT,
     type: DataTypes.INTEGER,
     name: DataTypes.STRING,

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 16 17:32:47 CEST 2018
+#Wed May 16 20:06:16 CEST 2018
 25.file=D\:\\Ynov\\B2\\APPLIWEB\\tp resto\\client\\Tp-resto\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\css\\bootstrap.css
 41.base=D\:\\Ynov\\B2\\APPLIWEB\\tp resto\\client\\Tp-resto\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 25.base=D\:\\Ynov\\B2\\APPLIWEB\\tp resto\\client\\Tp-resto\\platforms\\android\\app\\build\\intermediates\\assets\\debug
