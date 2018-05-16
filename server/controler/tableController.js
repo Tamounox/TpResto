@@ -1,0 +1,1 @@
+const table = require ('../models').table;
